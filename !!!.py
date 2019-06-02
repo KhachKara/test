@@ -1,8 +1,13 @@
 class Person:
-    def __int__(self, firstname, lastname, age):
+    def __int__(self,
+                firstname,
+                lastname,
+                age,
+                city):
         self.firstname = firstname
         self.lastname = lastname
         self.age = age
+        self.city = city
 
 pl = Person()
 pl.firstname = "Khach"
