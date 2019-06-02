@@ -9,4 +9,5 @@ pl.firstname = "Khach"
 pl.lastname = "Kara"
 pl.age = 46
 pl.nike = "Boga"
-print("{} {}".format(pl.firstname, pl.lastname))
+pl.city = "Moscow"
+print("{} {} {}".format(pl.firstname, pl.lastname, pl.city))
