@@ -1,4 +1,4 @@
-def cubeinfo(length, width, height):
+def cubecalc(length, width, height):
     """
     Считает суммарную площадь сторон, суммарный периматр кромок и объем куба
     и возвращает эти значения в виде кортежа.
@@ -13,5 +13,5 @@ def cubeinfo(length, width, height):
     perimeter = 4*length + 4*width + 4*height
     volume = length * width * height
     return square, perimeter, volume
-print(cubeinfo(1, 1, 1))
+print(cubecalc(1, 1, 1))
 
