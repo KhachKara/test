@@ -9,10 +9,13 @@ class Person:
         self.age = age
         self.city = city
 
+    def calclength(self, arg):
+        self.length = len(arg)
+        return self.length
 pl = Person()
 pl.firstname = "Khach"
 pl.lastname = "Kara"
 pl.age = 46
 pl.nike = "Boga"
 pl.city = "Moscow"
-print("{} {} {}".format(pl.firstname, pl.lastname, pl.city))
+print("{}".format(pl.calclength(pl.city)))
